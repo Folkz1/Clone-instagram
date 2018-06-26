@@ -1,0 +1,142 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial, times;
+	font-size: 14px;
+}
+.container-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 0 163px;
+	height: 77px;
+	background-color: #fff;
+	position: fixed;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.header-principal{
+	display: block;
+	height: 77px;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+header .logo i {
+	font-size: 30px;
+	padding-right: 20px;
+	border-right: 1px solid black;
+}
+header .logo .tag{
+	font-size: 1.8em;
+	padding-left: 20px;
+}
+header  .link {
+	text-decoration-line: none;
+	color: black;
+}
+header .search {
+	position: relative;
+}
+header .search button{
+	
+	background: none;
+    border: none;
+}
+header .search input{
+	background-color: #ecf0f1;
+	width: 237px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;	
+}
+header .search-continuos {
+	position: absolute;
+	top: 3px;
+    right: 90px;
+}
+header .search ::-webkit-input-placeholder{
+	text-align: center;
+}
+header .search i {
+	color: gray;
+	font-size: 11px;
+}
+header .configuracion i{
+	margin-right: 30px;
+	font-size: 19px;
+	position: relative;
+}
+header .configuracion a:hover .barra-compass {
+	display: flex;
+	position: absolute;
+	right: 204px;
+    top: 61px;
+	width: 498px;
+	height: 382px;
+	background-color: #b19090;
+	
+}
+header .configuracion .barra-compass{
+	display: none;
+}
+header ul li{
+	list-style-type: none;
+}
+
+header .configuracion i:last-of-type {
+	margin-right: 0;
+}
+.administracion-post {
+	background-color: #fafafa;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	flex-direction: row-reverse;
+}
+article {
+	width: 616px;
+	height: auto;
+	padding: 40px 5px 40px 5px;
+}
+article .container-conteudo {
+	border: 1px solid #e6e6e6;
+}
+article .topo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: white;
+	padding: 10px
+}
+article .topo .img {
+	background-color: black;
+	width: 20px;
+    height: 20px;
+    border-radius: 9px;
+}
+article .img-prin {
+	width: 604px;
+	height: 616px;
+	background-color: #7f8c8d;
+}
+article .user {
+	padding-left: 12px;
+}
+nav {
+	padding: 40px 5px 40px 5px;
+}
+nav .nav-right {
+	width: 293px;
+	height: 353px;
+	background-color: black;
+}
+.photos {
+	display: flex;
+	flex-wrap: wrap;
+	width: 604px;
+}
